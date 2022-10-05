@@ -1,5 +1,5 @@
-# Hi everyone 👋
-
+# Hi, what you see now here is just an ttempt to design my profile.
+I started to learn how I can create GitHub portfolio
 <img src="https://github.com/Evgenii-Iurin/Evgenii-Iurin/blob/main/banner_1.jpg" alt="banner 1">
 
 ## Some text
