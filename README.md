@@ -1,10 +1,2 @@
-# Hi, what you see now here is just an attempt to design my profile.
-I started to learn how I can create GitHub portfolio
+Hi there, I’m Evgenii. I’m a student at the Warsaw University of Technology. I’m very big on computer vision and machine learning. I stick to philosophy in my life: if you want to know something good, explain it to others. Therefore, I make videos about geometry, ML, CV, and physics and share them on my Instagram profile. Also, you can read my popular scientific articles on Medium. I recommend reading the article "Projective Geometry" with my own illustrations. At university, I give a lecture to a student. I believe in the automation of our world for the benefit of mankind and want to be a part of this future.
 <img src="https://github.com/Evgenii-Iurin/Evgenii-Iurin/blob/main/banner_1.jpg" alt="banner 1">
-
-## Some text
-Questions explained agreeable preferred strangers too him her son. Set put shyness offices his females him distant. Improve has message besides shy himself cheered however how son. Quick judge other leave ask first chief her. Indeed or remark always silent seemed narrow be. Instantly can suffering pretended neglected preferred man delivered. Perhaps fertile brandon do imagine to cordial cottage.
-
-Do so written as raising parlors spirits mr elderly. Made late in of high left hold. Carried females of up highest calling. Limits marked led silent dining her she far. Sir but elegance marriage dwelling likewise position old pleasure men. Dissimilar themselves simplicity no of contrasted as. Delay great day hours men. Stuff front to do allow to asked he.
-
-<img src="https://github.com/Evgenii-Iurin/Evgenii-Iurin/blob/main/banner_2.jpg" alt="banner 2">
