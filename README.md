@@ -4,9 +4,11 @@ I’m a student at the Warsaw University of Technology. I’m very big on comput
 
 ## Cases
 <p>
-    <a href="https://github.com/Evgenii-Iurin/Dataset-preparation/tree/main/Class-distribution"><img src='src/pic/dataset_distribution.png' width=25% height=25%/><a/>
-    <a href="https://github.com/Evgenii-Iurin/Dataset-preparation/tree/main/Collecting-class-name"><img src='src/pic/class_collecting.png' width="25%" height="25%"/><a/>
-    <a href="https://github.com/Evgenii-Iurin/Dataset-preparation/tree/main/Waymo-preparation"><img src='src/pic/waymo_dataset_preparation.png' width="25%" height="25%"/><a/>
+    <a href="https://medium.com/@iurin.evgenii/image-processing-mean-median-filters-2a444fc2092f"><img src='src/pic/mean_median_filters.png'/><a/>
+    <a href="https://github.com/Evgenii-Iurin/Dataset-preparation/tree/main/Collecting-class-name"><img src='src/pic/class_collecting_new.png'/><a/>
+    <a href="https://github.com/Evgenii-Iurin/Dataset-preparation/tree/main/Class-distribution" style={margin: "px"}><img src='src/pic/dataset_distribution_new.png'/><a/>
+    <a href="https://github.com/Evgenii-Iurin/Dataset-preparation/tree/main/Waymo-preparation"><img src='src/pic/waymo_dataset_preparation_new.png'/><a/>
+    <a href=""><img src='src/pic/yolov7_training.png'/><a/>
 <p/>
 
  
