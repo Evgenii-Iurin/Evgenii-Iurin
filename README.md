@@ -4,7 +4,7 @@ I’m a student at the Warsaw University of Technology. I’m very big on comput
 
 ## Cases
 <p>
-    <a href="https://github.com/Evgenii-Iurin/Dataset-preparation/tree/main/Class-distribution"><img src='src/pic/dataset_distribution.png' width="25%" height="25%"/><a/>
-    <a href="https://github.com/Evgenii-Iurin/Dataset-preparation/tree/main/Class-distribution"><img src='src/pic/dataset_distribution.png' width="25%" height="25%"/><a/>
-    <a href="https://github.com/Evgenii-Iurin/Dataset-preparation/tree/main/Class-distribution"><img src='src/pic/dataset_distribution.png' width="25%" height="25%"/><a/>
+    <a href="https://github.com/Evgenii-Iurin/Dataset-preparation/tree/main/Class-distribution"><img src='src/pic/dataset_distribution.png' width=25% height=25%/><a/>
+    <a href="https://github.com/Evgenii-Iurin/Dataset-preparation/tree/main/class_collecting.png"><img src='src/pic/class_collecting.png' width="25%" height="25%"/><a/>
+    <a href="https://github.com/Evgenii-Iurin/Dataset-preparation/tree/main/waymo_dataset_preparation.png"><img src='src/pic/waymo_dataset_preparation.png' width="25%" height="25%"/><a/>
 <p/>
