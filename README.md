@@ -5,12 +5,17 @@
 > **Note:** The project was conducted under NDA due to the use of sensitive financial data. While specific results and datasets are confidential, I can share my overall analytical approach and methodology.
 
 ### Key Contributions:
-- **Data Cleaning:** Processed and prepared raw user and transaction data for analysis.
-- **Churn Prediction:** Built a model to identify users unlikely to renew their subscription.
-- **Financial Analysis:** Evaluated revenue streams and provided pricing insights for optimization.
+- **Data Cleaning:** Processed and structured raw user and transaction data for further analysis.
+- **Churn Prediction:** Developed a model to identify users unlikely to renew their subscription, using behavioral and transactional features.
+- **Financial Analysis & Pricing:** Conducted exploratory financial analysis and provided recommendations on pricing optimization based on customer value segmentation.
 
-**Tech stack:** Python (Pandas, NumPy, scikit-learn), matplotlib/seaborn
+**Approach Overview:**
+- Defined KPIs and target labels (e.g., churned users)
+- Performed feature engineering based on user activity and payment patterns
+- Evaluated model performance and interpreted results
+- Presented insights and pricing suggestions to stakeholders
 
+**Tech stack:** Python (Pandas, NumPy, scikit-learn), SQL, Jupyter Notebook, matplotlib/seaborn
 
 
 ## Statistics
