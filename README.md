@@ -1,3 +1,43 @@
+## Data Science Course – Karpov Courses
+
+> **Note:** Due to NDA, I cannot share specific code or solutions from the course. Below is an outline of the techniques and topics I worked with.
+
+### Key Areas Covered
+
+####  NLP
+- Sentiment analysis on customer reviews using **BERT**
+
+####  Custom Metrics & Loss Functions
+- Implemented common metrics: **SMAPE**, **MAPE**, **MAE**
+- Designed task-specific losses:
+  - **Asymmetric losses** (e.g., RMSLE)
+  - **Custom LTV error**: Root Sum Absolute Squared Error
+- Classification metrics used in recommender systems:
+  - **Recall / Precision / F1-Score / Specificity@K**
+- **Triplet Loss** for computer vision tasks
+
+####  Experimentation & Analysis
+- A/B testing with **K-Fold** cross-validation (Kaggle-style model evaluation)
+- Measured metric lift using **T-test**
+
+####  Forecasting & Modeling
+- **Demand forecasting** for cold-start users
+- **Dynamic pricing** using competitor data:
+  - Applied **metric learning** to match client and competitor products
+  - Used product **images and descriptions** as embedding inputs
+
+####  Algorithms Implemented from Scratch
+- **PCA**
+- **Decision Tree**
+- **Gradient Boosting**
+- **UCB Algorithm** for auction/arbitrage problems
+
+####  SQL Practice
+- WAU (Weekly Active Users) calculation
+- DAU (Daily Active Users) query logic
+
+
+
 ## Data Analysis Project: Stretching Studio
 
 **Project Goal:** Analyze user behavior and financial data to improve retention and pricing strategy for a stretching studio.
