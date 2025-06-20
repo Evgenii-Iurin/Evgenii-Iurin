@@ -1,5 +1,19 @@
+## Data Analysis Project: Stretching Studio
 
-### Statistics
+**Project Goal:** Analyze user behavior and financial data to improve retention and pricing strategy for a stretching studio.
+
+> **Note:** The project was conducted under NDA due to the use of sensitive financial data. While specific results and datasets are confidential, I can share my overall analytical approach and methodology.
+
+### Key Contributions:
+- **Data Cleaning:** Processed and prepared raw user and transaction data for analysis.
+- **Churn Prediction:** Built a model to identify users unlikely to renew their subscription.
+- **Financial Analysis:** Evaluated revenue streams and provided pricing insights for optimization.
+
+**Tech stack:** Python (Pandas, NumPy, scikit-learn), matplotlib/seaborn
+
+
+
+## Statistics
 
 Worked on real-world cases using datasets from an online streaming platform focused on series and films (KION). Due to an NDA, project notebooks cannot be shared publicly, but selected parts can be demonstrated during a call (permission granted).
 
