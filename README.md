@@ -1,3 +1,25 @@
+## [3D Computer Vision Advanced](https://github.com/Evgenii-Iurin/ITMO-3DCV) | School of Data Analysis
+
+Completed the course with a grade of *Satisfactory*. Lectures were taught by [Anton Konushin](https://scholar.google.com/citations?user=ZT_k-wMAAAAJ&hl=en) (AIRI). The course included the following assignments:
+
+[kmapfmasd](./ITMO-3DCV)
+
+- **Camera Calibration**
+  - Camera matrix initialization using the DLT method
+  - Refinement via gradient-based optimization of reprojection error
+  - Matrix factorization into intrinsic and extrinsic parameters
+
+- **SLAM from Scratch**
+  - Full SLAM pipeline implementation to reconstruct a point cloud from a given dataset
+
+- **Differentiable Rasterization**
+  - Implemented texture optimization from input images and known camera poses
+
+- **NeRF (Neural Radiance Fields)**
+  - Built a basic NeRF model ([paper](https://arxiv.org/pdf/2003.08934.pdf)) without hierarchical sampling
+
+---
+
 ## Data Science Course – Karpov Courses
 
 > **Note:** Due to NDA, I cannot share specific code or solutions from the course. Below is an outline of the techniques and topics I worked with.
@@ -36,7 +58,7 @@
 - WAU (Weekly Active Users) calculation
 - DAU (Daily Active Users) query logic
 
-
+---
 
 ## Data Analysis Project: Stretching Studio
 
