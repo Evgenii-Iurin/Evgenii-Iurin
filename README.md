@@ -1,3 +1,47 @@
+## [Recommendation Systems](https://github.com/Evgenii-Iurin/ITMO-RecSys) | [MTS](https://en.wikipedia.org/wiki/MTS_(telecommunications)) | ITMO University
+
+As part of the project, I worked on the development and evaluation of various recommendation system approaches.
+
+#### Key Contributions:
+
+- **End-to-End Two-Tower Model (MLP-based):**
+  - Built a dual-tower architecture with separate feature embeddings for users and items
+  - Used a customized **triplet loss** with **cosine distance** instead of Euclidean
+  - Performed **hyperparameter optimization**
+  - Implemented full **data preprocessing pipeline**
+  - Developed **MAP@K** as the custom accuracy function
+  - Added **model interpretability** via **UMAP visualization** of embeddings
+
+- **KNN-Based Recommendation Model:**
+  - Recommended items based on user similarity
+  - Designed to handle **cold-start users**
+
+- **Model Benchmarking & Optimization:**
+  - Prepared and tuned several baseline models for comparison:
+    - Implicit ALS
+    - SVD
+    - LightFM
+  - Hyperparameter tuning for each model
+
+- **Cold-Start User Modeling:**
+  - Developed a specialized pipeline for recommendations to new users with sparse interaction history
+
+- **Feature Engineering:**
+  - Created and selected features relevant to user-item interaction
+
+- **Custom Evaluation Metrics (from scratch):**
+  - Precision@K  
+  - Recall@K  
+  - MAP@K  
+  - AP@K  
+  - DCG@K / IDCG@K  
+  - NDCG@K  
+
+- **A/B Testing:**
+  - Designed and conducted A/B tests to evaluate model performance in production-like scenarios
+
+
+
 ## [3D Computer Vision Advanced](https://github.com/Evgenii-Iurin/ITMO-3DCV) | School of Data Analysis
 
 Completed the course with a grade of *Satisfactory*. Lectures were taught by [Anton Konushin](https://scholar.google.com/citations?user=ZT_k-wMAAAAJ&hl=en) (AIRI). The course included the following assignments:
