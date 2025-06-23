@@ -8,22 +8,22 @@
 - **Drone Rescue project** – a multi-agent communication system built on small language models. Each agent is a language model fine-tuned on a custom dataset using the LoRA method. The project is not publicly available, but I can share parts of it upon request.
 - **Visual RAG system** – the user asks a question (e.g., “Where can I wash my hands?”) and the system returns an image that matches the description. A VLM, an LLM, and a vector database are employed. The project is complete; a demo is in progress.
 
-### Computer Vision
+### [Computer Vision](#computer-vision-projects)
 
 - [Image Matching](#image-matching)
-- Hand Keypoint Detection
-- Object Tracking from scratch (Hungarian Algorithm + Kalman Filter)
-- YOLOv1 from scratch
-- Camera Calibration
-- SLAM from scratch
-- Differentiable Rasterization
-- NeRF (Neural Radiance Fields)
+- [Hand Keypoint Detection](#hand-keypoint-detection)
+- [Object Tracking](#object-tracking) from scratch (Hungarian Algorithm + Kalman Filter)
+- [YOLOv1](#yolo-from-scratch) from scratch
+- [Camera Calibration](#camera-calibration)
+- [SLAM](#slam-from-scratch) from scratch
+- [Differentiable Rasterization](#differentiable-rasterization)
+- [NeRF](#nerf) (Neural Radiance Fields)
 
-### Recommendation Systems
+### [Recommendation Systems](#recommendation-systems)
 
 - Implementing End-to-End Two-Tower model (MLP-based) ; KNN Base Recommendation System ; Cold-Start User Modeling ; A/B Testing
 
-### Data Analysis for business
+### [Data Analysis for business](#data-analysis)
 
 - Financial Analysis & Pricing ; Churn Prediction
 
@@ -41,6 +41,7 @@
   - Matched descriptors using **FLANN** (Fast Library for Approximate Nearest Neighbors)
   - Analyzed the distribution of match thresholds to determine the optimal cutoff for filtering duplicates
 
+<a id="hand-keypoint-detection"></a>
 ### [Hand Keypoint Detection](https://github.com/Evgenii-Iurin/ITMO-CV-ADV/tree/dev/src/keypoint_detection) – [Demo](https://www.linkedin.com/posts/eugene-iurin_%F0%9D%97%98%F0%9D%98%83%F0%9D%97%B2%F0%9D%97%BF%F0%9D%98%86-%F0%9D%97%B1%F0%9D%97%B2%F0%9D%98%83%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%BC%F0%9D%97%BD%F0%9D%97%B2%F0%9D%97%BF-%F0%9D%97%AE%F0%9D%98%81-%F0%9D%97%B9%F0%9D%97%B2%F0%9D%97%AE%F0%9D%98%80%F0%9D%98%81-activity-7329534223801802752-Q2HA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD80pnwB9xOyFSB0npQlx6zGxQGo8aoNQv4)
 
 - **Description:** Developed an interactive application for real-time **hand keypoint tracking**. The app enables users to draw using hand gestures.
@@ -149,17 +150,21 @@ Completed the course with a grade of *Satisfactory*. Lectures were taught by [An
 
 [kmapfmasd](./ITMO-3DCV)
 
+<a id="camera-calibration"></a>
 - **Camera Calibration**
   - Camera matrix initialization using the DLT method
   - Refinement via gradient-based optimization of reprojection error
   - Matrix factorization into intrinsic and extrinsic parameters
 
+<a id="slam-from-scratch"></a>
 - **SLAM from Scratch**
   - Full SLAM pipeline implementation to reconstruct a point cloud from a given dataset
 
+<a id="differentiable-rasterization"></a>
 - **Differentiable Rasterization**
   - Implemented texture optimization from input images and known camera poses
 
+<a id="nerf"></a>
 - **NeRF (Neural Radiance Fields)**
   - Built a basic NeRF model ([paper](https://arxiv.org/pdf/2003.08934.pdf)) without hierarchical sampling
 
@@ -205,6 +210,7 @@ Completed the course with a grade of *Satisfactory*. Lectures were taught by [An
 
 ---
 
+<a id="data-analysis"></a>
 ## Data Analysis Project: Stretching Studio
 
 **Project Goal:** Analyze user behavior and financial data to improve retention and pricing strategy for a stretching studio.
