@@ -1,3 +1,73 @@
+## Computer Vision Projects
+
+### [Image Matching](https://github.com/Evgenii-Iurin/ITMO-CV-ADV/tree/dev/src/image_matching)
+
+- **Description:** After downloading a dataset from Roboflow, it was discovered that some training images had leaked into the test set as augmented versions.
+- **Task:** Identify and remove "extra" or duplicate images from the test set.
+- **Solution:**
+  - Used image hashing to quickly eliminate obviously dissimilar images. This significantly reduced computation before the next steps.
+  - Extracted descriptors using **SIFT**
+  - Matched descriptors using **FLANN** (Fast Library for Approximate Nearest Neighbors)
+  - Analyzed the distribution of match thresholds to determine the optimal cutoff for filtering duplicates
+
+### [Hand Keypoint Detection](https://github.com/Evgenii-Iurin/ITMO-CV-ADV/tree/dev/src/keypoint_detection) – [Demo](https://www.linkedin.com/posts/eugene-iurin_%F0%9D%97%98%F0%9D%98%83%F0%9D%97%B2%F0%9D%97%BF%F0%9D%98%86-%F0%9D%97%B1%F0%9D%97%B2%F0%9D%98%83%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%BC%F0%9D%97%BD%F0%9D%97%B2%F0%9D%97%BF-%F0%9D%97%AE%F0%9D%98%81-%F0%9D%97%B9%F0%9D%97%B2%F0%9D%97%AE%F0%9D%98%80%F0%9D%98%81-activity-7329534223801802752-Q2HA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD80pnwB9xOyFSB0npQlx6zGxQGo8aoNQv4)
+
+- **Description:** Developed an interactive application for real-time **hand keypoint tracking**. The app enables users to draw using hand gestures.
+- **Task:** Implement a hand-tracking model and integrate it into a working drawing application.
+- **Solution:**
+  - Used **MediaPipe** as a baseline for fast hand detection
+  - Detected finger gestures to trigger drawing actions
+  - Implemented a custom **U-Net** architecture and trained it on the **FreiHAND** dataset
+
+### [Object Tracking](https://github.com/Evgenii-Iurin/object-tracking-assignment/blob/main/report_en.md)
+
+**Tracker Soft** is a video object tracking system that uses the Hungarian Algorithm and a Kalman Filter. It matches objects across frames, even in the presence of missed detections, and evaluates tracking performance using the **precision** metric.
+
+#### How does it work?
+
+1. **Object Detection:**
+    
+    For each frame, object center coordinates and bounding boxes are extracted.
+    
+2. **Object Assignment (Hungarian Algorithm):**
+    
+    A cost matrix based on IoU is built between current and previous bounding boxes to assign detections to existing tracks.
+    
+3. **Kalman Filter:**
+    
+    Predicts the object's next position, smooths noisy detections, and helps maintain consistent tracking even with temporary detection failures.
+    
+4. **Track Management:**
+    - A new track is created if a detection does not match any existing track
+    - A track is deleted if it hasn't been updated for more than 10 frames
+    - Euclidean distance and IoU are used to evaluate matches
+    - Detections without bounding boxes are excluded from tracking
+
+### [YOLO From Scratch](https://github.com/Evgenii-Iurin/ITMO-CV-ADV/blob/dev/src/yolo_from_scratch/report_en.md)
+
+Build a [YOLOv1](https://arxiv.org/pdf/1506.02640) object detector entirely from scratch, mirroring the original paper.
+
+- **Data & Annotations**
+    - 182 annotated video frames (121 train / 61 val) created in CVAT
+    - Every 10-th video frame selected; standard bounding-box labels
+- **Input Format**
+    - Images resized to **448 × 448**
+    - Each image split into a **7 × 7 grid**
+- **Model Output**
+    - Tensor shape: **[batch, 7, 7, 14]**
+        - 2 boxes × 5 values (x, y, w, h, conf) + 2 class flags per grid cell
+- **Loss Strategy**
+    - IoU picks the “responsible” box per cell
+    - Loss terms: coordinates, size, confidence
+    - Signed-sqrt trick prevents NaNs on negative w/h
+- **Architecture**
+    - 24 convolutional layers with Leaky ReLU — classic YOLO backbone
+- **Training Setup**
+    - Optimizer: **SGD**, lr = 0.001, momentum = 0.9, weight decay = 5 × 10⁻⁴
+    - Hyperparameters match the original YOLO specification
+
+---
+
 ## [Recommendation Systems](https://github.com/Evgenii-Iurin/ITMO-RecSys) | [MTS](https://en.wikipedia.org/wiki/MTS_(telecommunications)) | ITMO University
 
 As part of the project, I worked on the development and evaluation of various recommendation system approaches.
