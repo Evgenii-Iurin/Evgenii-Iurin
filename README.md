@@ -1,3 +1,34 @@
+> **Computer Vision | NLP | Recommendation Systems | Data Analysis**
+
+### Hello, I’m a Data Scientist and Machine-Learning Engineer with over 3 years of experience, specializing in Computer Vision, Recommender Systems, Time-Series Forecasting, Data Analysis, and NLP. Below are some projects I have pursued in my spare time alongside my primary role.
+
+
+### NLP
+
+- **Drone Rescue project** – a multi-agent communication system built on small language models. Each agent is a language model fine-tuned on a custom dataset using the LoRA method. The project is not publicly available, but I can share parts of it upon request.
+- **Visual RAG system** – the user asks a question (e.g., “Where can I wash my hands?”) and the system returns an image that matches the description. A VLM, an LLM, and a vector database are employed. The project is complete; a demo is in progress.
+
+### Computer Vision
+
+- [Image Matching](#image-matching)
+- Hand Keypoint Detection
+- Object Tracking from scratch (Hungarian Algorithm + Kalman Filter)
+- YOLOv1 from scratch
+- Camera Calibration
+- SLAM from scratch
+- Differentiable Rasterization
+- NeRF (Neural Radiance Fields)
+
+### Recommendation Systems
+
+- Implementing End-to-End Two-Tower model (MLP-based) ; KNN Base Recommendation System ; Cold-Start User Modeling ; A/B Testing
+
+### Data Analysis for business
+
+- Financial Analysis & Pricing ; Churn Prediction
+
+---
+
 ## Computer Vision Projects
 
 ### [Image Matching](https://github.com/Evgenii-Iurin/ITMO-CV-ADV/tree/dev/src/image_matching)
