@@ -1,6 +1,6 @@
 > **Computer Vision | NLP | Recommendation Systems | Data Analysis**
 
-### Hello, I’m a Data Scientist and Machine-Learning Engineer with over 3 years of experience, specializing in Computer Vision, Recommender Systems, Time-Series Forecasting, Data Analysis, and NLP. Below are some projects I have pursued in my spare time alongside my primary role.
+### Hello, I’m a Data Scientist and Machine-Learning Engineer, specializing in Computer Vision, Recommender Systems, Time-Series Forecasting, Data Analysis, and NLP. Below are some projects I have pursued in my spare time alongside my primary role.
 
 
 ### NLP
